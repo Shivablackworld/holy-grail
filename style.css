@@ -1,0 +1,59 @@
+#parent{
+    width: 600px;
+    background-color: aquamarine;
+    border: 15px;
+    padding: 1px solid greenyellow;
+
+
+    display: grid;
+
+
+    grid-template-columns: 1fr;
+
+    
+    
+}
+
+.header{
+  
+    border: 1px solid black;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.footer{
+    
+    border: 1px solid black;
+    text-align: center;
+    background-color:orangered ;
+}
+
+.menu{
+
+    border: 1px solid black;
+    font-size: small;
+    background-color: darkgrey;
+
+}
+
+.ads{
+
+    border: 1px solid black;
+    font-size: small;
+    background-color: aqua;
+    padding: 25px;
+
+}
+
+.content{
+    
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: beige;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+}
